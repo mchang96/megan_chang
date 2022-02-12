@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name = "format-detection" content = "telephone=no">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="stylesheet" href="styles.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$("#wrapper").click( function() {
+				$(".icon").toggleClass("close");
+			});
+		</script>
+		<script src="nav.js" defer> </script>
+		<script src="countdown.js" defer> </script>
+		<script src="hr-grow.js" defer> </script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		// Add smooth scrolling to all links
+		$("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			event.preventDefault();
+
+			// Store hash
+			var hash = this.hash;
+
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 800, function(){
+		
+				window.location.hash = hash;
+			});
+			} // End if
+		});
+		});
+		</script>
+
+		<title>Megan Chang's Portfolio</title>
+	</head>
+	<body>
+
+		<header class="primary-header flex">
+			<div>
+				<img src="images/logo_brown_web.svg" alt="MC logo" class="logo crisp-img">
+			</div>
+
+			<button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+				<span class="visually-hidden">Menu</span>
+				<span class="line top"></span>
+				<span class="line middle"></span>
+				<span class="line bottom"></span>
+			</button>
+
+			<nav>
+				<ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+					<li>
+						<a href="#home">HOME</a>
+					</li>
+					<li>
+						<a href="#works">WORKS</a>
+					</li>
+					<li>
+						<a href="#skills">ABOUT</a>
+					</li>
+					<li>
+						<a href="#contact">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="grid">
+			
+			<div id="home" class="box1 cell" >
+				<h1 id="megan" class="slide from-left" style="text-align: left;">
+					Megan
+				</h1>
+				<h1 id="chang" class="slide from-left" style="text-align: left; padding-left: 2rem;">
+					Chang
+				</h1>
+				<h4 class="slide from-left" style="text-align: left;">
+					MSc., BMSc.
+				</h4>
+			</div>
+			<div class="box2 cell" style="text-align: center;">
+
+				<img src="just_gif/neh4-30-transparent-crop.gif" alt="Nrf2 protein bound to CBP" class="main-img crisp-img">
+			</div>
+			<div class="box3 cell" style="text-align: justify;">
+				<h4 class="slide from-right" style="background-color: rgba(162, 149, 135,0.5);">
+					I earned my degrees from Western University in computational biochemistry
+				</h4>
+				<h4 class="slide from-right" style="background-color: rgba(162, 149, 135,0.5);">
+					Specializing in molecular dynamics simulations of disordered proteins, data analyses, and science communication
+				</h4>
+			</div>
+			<div class="box4 cell" style="text-align: center;">
+				<div class="scroll-container">
+					<a href="#works"><div class="scroll-down-block"></div></a>
+				</div>
+			</div>
+
+			<div class="box5 cell diff-background">
+				<h2 id="works">
+					Works
+				</h2>
+			</div>
+			<div class="box6 cell diff-background" style="text-align: center;">
+				<div class="touchscreen-txt-container">
+					<div class="touchscreen-txt">Uncovered the Conformational propensities of Nrf2's Neh4/5 domains and identified performance disparities between force fields</div>
+				</div>
+				<div class="image-container">
+					<a href="https://pubs.acs.org/doi/10.1021/acs.jctc.0c01243" target=”_blank” rel=”noopener noreferrer”><img src="images/toc_neh45_sv2.png" alt="Neh4 and Neh5 conformational landscape TOC" class="work-img crisp-img">
+						<div class="overlay-mid">
+							<div class="overlay-text">Uncovered the Conformational propensities of Nrf2's Neh4/5 domains and identified performance disparities between force fields</div>
+						</div>
+						<div class="overlay-edge">
+							<img class="img-arrow crisp-img" alt="arrow" src="images/icons/arrow.svg">
+						</div>
+					</a>
+						
+				</div>
+			</div>
+			<div class="box7 cell diff-background">
+				<div class="cite-text">Chang, M.; Wilson, C. J.; Karunatilleke, N. C.; Moselhy, M. H.; Karttunen, M.; Choy, W.-Y. Exploring the Conformational Landscape of the Neh4 and Neh5 Domains of Nrf2 Using Two Different Force Fields and Circular Dichroism. <i>J. Chem. Theory Comput.</i> 2021, 17 (5), 3145&#8211;3156.</div>
+					<hr class="grow-trans"/>
+			</div>
+			<div class="box8 cell diff-background" style="text-align: center;">
+				<div class="touchscreen-txt-container">
+					<div class="touchscreen-txt">Explored the structural dynamics of KEAP1 Cancer mutants and their mutagenic effect</div>
+				</div>
+				<div class="image-container">
+					<a href="https://www.mdpi.com/1422-0067/22/10/5408" target=”_blank” rel=”noopener noreferrer”><img src="images/ijms-22-05408-ag.png" alt="Kelch domain mutants TOC" class="work-img crisp-img">
+						<div class="overlay-mid">
+							<div class="overlay-text">Explored the structural dynamics of KEAP1 Cancer mutants and their mutagenic effect</div>
+						</div>
+						<div class="overlay-edge">
+							<img class="img-arrow crisp-img" alt="arrow" src="images/icons/arrow.svg">
+						</div>
+					</a>
+				</div>
+					
+			</div>
+			<div class="box9 cell diff-background">
+				<div class="cite-text">Wilson, C. J.; Chang, M.; Karttunen, M.; Choy, W.-Y. KEAP1 Cancer Mutants: A Large-Scale Molecular Dynamics Study of Protein Stability. <i>Int. J. Mol. Sci.</i> 2021, 22 (10), 5408.</div>
+				<hr class="grow-trans"/>
+			</div>
+			<div class="box10 cell diff-background" style="text-align: center;">
+				<div class="touchscreen-txt-container">
+					<div class="touchscreen-txt">Elucidated the structural and dynamical properties of Nrf2 and evaluated the capabilities of Molecular dynamics simulations</div>
+				</div>
+				<div class="countdown-container">
+					<a href="https://ir.lib.uwo.ca/etd/8293/" target=”_blank” rel=”noopener noreferrer”><div id="countdown"><ul><li><span id="days"></span>days</li><li><span id="hours"></span>Hours</li><li><span id="minutes"></span>Minutes</li><li><span id="seconds"></span>Seconds</li></ul></div>
+						<div class="overlay-mid">
+							<div class="overlay-text">Elucidated the structural and dynamical properties of Nrf2 and evaluated the capabilities of Molecular dynamics simulations</div>
+						</div>
+						<div class="overlay-edge">
+							<img class="img-arrow crisp-img" alt="arrow" src="images/icons/arrow.svg">
+						</div>
+					</a>
+
+				</div>
+				
+				<h4 id="headline">Countdown to thesis release from embargo</h4>		
+			</div>
+			<div class="box11 cell diff-background">
+				<div class="cite-text">Chang, Megan Nicole, "Elucidating the Structural and Dynamical Properties of the Intrinsically Disordered Protein Nrf2 Using Molecular Dynamics Simulations" (2021). <i>Electronic Thesis and Dissertation Repository.</i> 8293.</div>
+				<hr class="grow-trans"/>
+			</div>
+			<div class="box12 cell diff-background" style="text-align: center;">
+				<div class="scroll-container">
+					<a href="#skills"><div class="scroll-down-block"></div></a>
+				</div>
+			</div>
+			<div class="box13 cell">
+				<h2 id="skills">
+					About
+				</h2>
+			</div>
+			<div class="box14 cell" style="text-align: justify;">
+				<h4 class="slide from-left">
+					I have an interest in uncovering proteins' roles in biological processes while presenting it in an engaging and effective manner
+				</h4>
+				<h4 class="slide from-left">
+					I strive to make science captivating for audiences by finding the intersection between science and design
+				</h4>
+			</div>
+			<div class="box15 cell" style="text-align: center;">
+				<img src="images/pymol/2flu_new_image_close2_new_300.png" alt="Nrf2 protein bound to Kelch domain" class="main-img crisp-img slide from-right">
+				
+			</div>
+			<div class="box16 cell" style="text-align: justify;">
+				<h4 class="slide from-left">
+					My background in computer science, structural biology, and statistical mechanics makes me a unique candidate
+				</h4>
+				<h4 class="slide from-left">
+					During my off-time I enjoy cross-stitching, fashion, and film
+				</h4>
+			</div>
+			<div class="box17 cell" style="text-align: center;">
+				<h4 style="font-weight: bold;">
+					A few of my technical skills
+				</h4>
+				<ul class="skills-icons">
+					<li>
+						<img src="images/skills/matlab.svg" alt="matlab icon" class="crisp-img img-skills-icons">
+					</li>
+					<li>
+						<img src="images/skills/python.svg" alt="python icon" class="crisp-img img-skills-icons">
+					</li>
+					<li>
+						<img src="images/skills/java.svg" alt="java programming language icon" class="crisp-img img-skills-icons">
+					</li>
+					<li>
+						<img src="images/skills/c-language.svg" alt="c programming language icon" class="crisp-img img-skills-icons">
+					</li>
+					<li>
+						<img src="images/skills/shell.svg" alt="shell scripting icon" class="crisp-img img-skills-icons">
+					</li>
+					<li>
+						<img src="images/skills/affinity.svg" alt="affinity designer icon" class="crisp-img img-skills-icons">
+					</li>
+					<li>
+						<img src="images/skills/html-css.svg" alt="html and css icon" class="crisp-img img-skills-icons">
+					</li>
+				</ul>
+			</div>
+			<div class="box18 cell" style="text-align: center;">
+				<div class="scroll-container">
+					<a href="#contact"><div class="scroll-down-block"></div></a>
+				</div>
+			</div>
+			<div class="box19 cell">
+				<h2 id="contact">
+					Contact
+				</h2>
+			</div>
+			<div class="box20 cell">
+				<h4>
+					Here are my socials
+				</h4>
+			</div>
+			<div class="box21 cell" style="text-align: center;">
+				<div>
+					<ul class="social-icons">
+						<li>
+							<a href="images/Resume_Chang_2022_email.pdf" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/resume-empty_web.svg" alt="resume icon" class="crisp-img img-icons"/></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/megan-chang-131240230/" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/linkedin-empty_web.svg" alt="linkedin icon" class="crisp-img img-icons"/></a>
+						</li>
+						<li>
+							<a href="mailto:megan.chang14@gmail.com" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/email-empty_web.svg" alt="email icon" class="crisp-img img-icons"/></a>
+						</li>
+						<li>
+							<a href="https://www.researchgate.net/profile/Megan-Chang-5" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/research-gate-empty_web.svg" alt="research gate icon" class="crisp-img img-icons"/></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="box22 cell">
+				<h4 style="font-weight: bold;">
+					References
+				</h4>
+				<h5>
+					Intro: Image features use of 1U2N (De Guzman, R. N., Wojciak, J. M., Martinez-Yamout, M. A., Dyson, H. J., & Wright, P. E. (2005). CBP/p300 TAZ1 domain forms a structured scaffold for ligand binding. Biochemistry, 44(2), 490&#8211;497.) created with VMD (Humphrey, W., Dalke, A., & Schulten, K. (1996). VMD: visual molecular dynamics. Journal of molecular graphics, 14(1), 33&#8211;38.). Simulation is my own.
+				</h5>
+				<h5>
+					About: Image of 2FLU (Lo, S. C., Li, X., Henzl, M. T., Beamer, L. J., & Hannink, M. (2006). Structure of the Keap1: Nrf2 interface provides mechanistic insight into Nrf2 signaling. The EMBO journal, 25(15), 3605&#8211;3617.) created with PyMol (PyMOL. (2015). The PyMOL Molecular Graphics System, Version 2.0.).
+				</h5>
+
+			</div>
+		</div>
+	</body>
+
+</html>
