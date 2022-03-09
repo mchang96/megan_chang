@@ -22,7 +22,6 @@
 		<script src="countdown.js" defer> </script>
 		<script src="hr-grow.js" defer> </script>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
 		// Add smooth scrolling to all links
@@ -44,14 +43,31 @@
 		});
 		});
 		</script>
+
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
 		<meta name="keywords" content="Megan, Megan Chang, mchang96, Chang, megan_chang, uwo, western, western university, university of western ontario, molecular dynamics, biophysics, biophysical, human disease, GROMACS, chemistry, data analyst, data analytics, data scientist, science communication, biochemistry, computational chemistry, Mikko Karttunen, James Choy, Choy Lab"/>
 	  	<meta name="description" content="Megan Chang, Master's of Science graduate from Western University (UWO). An experienced research professional in utilizing computational techniques such as molecular dynamics simulations to study crucial proteins in the human system and their role in protein-targeting disease mechanisms."/>
 
 		<title>Megan Chang's Portfolio</title>
 		<meta name="google-site-verification" content="a_czpiTbf41uDmESJeWj--EGPKvYK3vfSuzV8d9wybs" />
+	
+	
 	</head>
 	<body>
-
+		<div class="loader-wrapper">
+			<div class="loader">
+				<div class="circle dot1"></div>
+				<div class="circle dot2"></div>
+				<div class="circle dot3"></div>
+				<div class="circle dot4"></div>
+				<div class="circle dot5"></div>
+			</div>
+		</div>
+		
 		<header class="primary-header flex">
 			<div>
 				<img src="images/logo_brown_web.svg" alt="MC logo" class="logo crisp-img">
