@@ -217,6 +217,7 @@ h5{
 	transition: .5s ease;
   	backface-visibility: hidden;
 }
+
 .overlay-mid{
 	transition: 0.5s ease;
 	opacity: 0;
@@ -263,10 +264,10 @@ h5{
 }
 
 @media (hover){
-	.image-container:hover .work-img, .box10:hover #countdown{
+	.image-container:hover .work-img{
 		opacity: 0.2;
 	}
-	.image-container:hover .overlay-mid, .box10:hover .overlay-mid{
+	.image-container:hover .overlay-mid {
 		opacity: 1;
 	}
 	.touchscreen-txt-container, .touchscreen-txt{
@@ -330,7 +331,6 @@ hr.appear{
 	grid-column-end: 4;
 	grid-row-start: 10;
 	grid-row-end: 12;
-	text-align: center;
 	position: relative;
 }
 #headline{
