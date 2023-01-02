@@ -1,8 +1,8 @@
 body {
 	background-color: #ebe9e6;
 	font-family: "Roboto";
-
-	overflow-x: hidden;
+	overflow-x: hidden !important;
+	/* overflow-x: hidden; */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -201,6 +201,8 @@ h5{
 	grid-row-end: 7;
 	padding: 0;
 	position: relative;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 .image-container{
 	width: 100%;
@@ -319,6 +321,8 @@ hr.appear{
 	grid-row-start: 8;
 	grid-row-end: 9;
 	position: relative;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 .box9{
 	grid-column-start: 1;
@@ -332,6 +336,8 @@ hr.appear{
 	grid-row-start: 10;
 	grid-row-end: 12;
 	position: relative;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 #headline{
 	color: rgb(0, 37, 0);
