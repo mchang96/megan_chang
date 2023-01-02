@@ -112,8 +112,6 @@ h5{
 	grid-row-start: 1;
 	grid-row-end: 3;
 	margin-top: 5rem;
-	max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 .box3{
 	grid-column-start: 3;
@@ -125,6 +123,8 @@ h5{
 	padding-left: 5rem;
 	align-items: end;
 	display: grid;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 .box4{
 	grid-column-start: 1;
