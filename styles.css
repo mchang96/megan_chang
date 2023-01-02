@@ -345,7 +345,7 @@ hr.appear{
 	color: rgb(0, 37, 0);
 	font-size: min(3vw, 2rem);
 }
-.countdown-container{
+/* .countdown-container{
 	width: 100%;
 	cursor: pointer;
 	display: inline-block;
@@ -370,7 +370,7 @@ hr.appear{
 	font-size: min(4vw, 4rem);
 	color: rgb(0, 37, 0);
 	font-weight: bold;
-}
+} */
 
 .box11{
 	grid-column-start: 1;
