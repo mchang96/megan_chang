@@ -394,6 +394,8 @@ hr.appear{
 	grid-column-end: 4;
 	grid-row-start: 15;
 	grid-row-end: 17;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 .box16{
 	grid-column-start: 1;
