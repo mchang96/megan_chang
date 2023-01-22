@@ -209,7 +209,7 @@ h5{
 .image-container{
 	width: 100%;
 	max-width: 700px;
-	aspect-ratio: 2475/1335;
+	aspect-ratio: 1500/809;
 	cursor: pointer;
 	display: inline-block;
 
@@ -217,7 +217,7 @@ h5{
 .work-img{
 	width: 100%;
 	max-width: 700px;
-	aspect-ratio: 2475/1335;
+	aspect-ratio: 1500/809;
 	transition: .5s ease;
   	backface-visibility: hidden;
 }
