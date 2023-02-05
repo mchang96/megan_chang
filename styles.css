@@ -1,6 +1,7 @@
 body {
 	background-color: #ebe9e6;
-	font-family: "Roboto";
+	/* font-family: "Roboto"; */
+	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden !important;
 	/* overflow-x: hidden; */
 	-webkit-font-smoothing: antialiased;
@@ -25,7 +26,8 @@ body {
 h1{
 	font-size: clamp(5rem, 1rem + 9vw, 10rem);
 	color: rgb(31, 19, 0);
-	font-weight: lighter;
+	/* font-weight: lighter; */
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.4rem;
 	line-height: 2rem;
@@ -50,7 +52,7 @@ h1{
 h2{
 	font-size: min(6vw, 8rem);
 	color: rgb(31, 19, 0);
-	font-weight: 100;
+	font-weight: 200;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	line-height: 2rem;
@@ -60,16 +62,16 @@ h2{
 h4{
 	font-size: clamp(0.8rem, 1rem + 0.7vw, 2rem);
 	color: rgb(31, 19, 0);
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 	padding: 1rem;
 }
 
 h5{
-	font-size: min(0.8rem,2vw);
+	font-size: min(0.9rem,2.5vw);
 	color: rgb(31, 19, 0);
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 	padding: 1rem;
@@ -82,6 +84,7 @@ h5{
 
 #works, #skills, #contact{
 	padding: 1rem;
+	font-weight: 300;
 }
 
 .cell{
@@ -216,7 +219,7 @@ h5{
 }
 .work-img{
 	width: 100%;
-	max-width: 700px;
+	/* max-width: 700px; */
 	aspect-ratio: 1500/809;
 	transition: .5s ease;
   	backface-visibility: hidden;
@@ -249,7 +252,7 @@ h5{
 .overlay-text{
 	font-size: min(2.5vw, 2rem);
 	color: rgb(32, 44, 61);
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 }
@@ -261,7 +264,7 @@ h5{
 .touchscreen-txt{
 	font-size: min(2.5vw, 2rem);
 	color: rgb(32, 44, 61);
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 
@@ -519,7 +522,8 @@ hr.appear{
 
 .main-img{
 	width: 100%;
-	max-width: 800px;
+	max-width: 65vw;
+	/* max-width: 1000px; */
 	aspect-ratio: 1;
 	z-index: 5;
 }
@@ -574,6 +578,7 @@ nav ul li a {
 	color: rgb(255, 255, 255);
 	letter-spacing: 0.15rem;
 	font-weight: 500;
+	font-size: min(3vw, 1rem);
 }
 
 nav ul li a, nav ul li a::after, nav ul li a::before{
