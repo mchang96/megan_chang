@@ -671,6 +671,9 @@ nav ul li a:hover::after{
 	.box2{
 		grid-row-start: 2;
 	}
+	.main-img{
+		max-width: 95vw;
+	}
 	.box3{
 		grid-column-start: 1;
 		grid-row-start: 2;
