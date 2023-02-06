@@ -440,11 +440,12 @@ hr.appear{
 }
 
 .img-skills-icons {
-	box-shadow: inset 0px 0px 0px rgb(255, 255, 255);
+	/* box-shadow: inset 0px 0px 0px rgb(255, 255, 255); */
+	box-shadow: inset 0px 0px 0px rgb(162, 149, 135);
 }
 	
 .img-skills-icons:hover {
-	box-shadow: inset 0px 140px 0px rgb(255, 255, 255);
+	box-shadow: inset 0px 140px 0px rgb(162, 149, 135);
 }
 
 
