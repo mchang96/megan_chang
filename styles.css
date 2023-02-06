@@ -528,6 +528,12 @@ hr.appear{
 	aspect-ratio: 1;
 	z-index: 5;
 }
+video{
+	width: 100%;
+	max-width: 65vw;
+	aspect-ratio: 1;
+	z-index: 5;
+}
 
 .flex{
 	display:flex;
@@ -673,6 +679,9 @@ nav ul li a:hover::after{
 		grid-row-start: 2;
 	}
 	.main-img{
+		max-width: 95vw;
+	}
+	video{
 		max-width: 95vw;
 	}
 	.box3{
