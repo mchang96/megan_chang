@@ -1,5 +1,6 @@
 body {
-	background-color: #ebe9e6;
+	/* background-color: #ebe9e6; */
+	background-color: rgb(255, 255, 255);
 	/* font-family: "Roboto"; */
 	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden !important;
@@ -10,9 +11,9 @@ body {
 	margin: 0;
 }
 
-.diff-background{
+/* .diff-background{
 	background-color: rgb(255, 255, 255);
-}
+} */
 
 .crisp-img{
 	/* Firefox -- I don't need it*/
