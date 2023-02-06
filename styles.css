@@ -533,6 +533,7 @@ video{
 	max-width: 65vw;
 	aspect-ratio: 1;
 	z-index: 5;
+	height: auto;
 }
 
 .flex{
