@@ -589,7 +589,7 @@ nav ul li a {
 	cursor: pointer;
 	text-decoration: none;
 	color: rgb(255, 255, 255);
-	letter-spacing: 0.15rem;
+	letter-spacing: 0.1rem;
 	font-weight: 500;
 	font-size: min(3vw, 1rem);
 }
@@ -669,6 +669,9 @@ nav ul li a:hover::after{
 	.mobile-nav-toggle[aria-expanded="true"] .middle, .mobile-nav-toggle[aria-expanded="true"] .bottom{
 		transform: rotate(-45deg);
 		top: 48%;
+	}
+	nav ul li a {
+		font-size: min(8vw, 8vh);
 	}
 }
 
